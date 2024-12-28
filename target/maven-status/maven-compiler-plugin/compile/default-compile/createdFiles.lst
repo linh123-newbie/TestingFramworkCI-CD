@@ -1,0 +1,8 @@
+TestingWebDriver\pagesobjects\OrderPage.class
+TestingWebDriver\pagesobjects\CheckoutPage.class
+TestingWebDriver\pagesobjects\abtractcomponents\AbstractComponents.class
+TestingWebDriver\pagesobjects\ConfirmationPage.class
+TestingWebDriver\pagesobjects\ProductCatalogue.class
+TestingWebDriver\pagesobjects\LandingPage.class
+TestingWebDriver\resources\ExtentReporterNG.class
+TestingWebDriver\pagesobjects\CartPage.class

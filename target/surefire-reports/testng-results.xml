@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-25T19:52:56 ICT" name="Suite" finished-at="2024-12-25T19:54:53 ICT" duration-ms="116882">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:testingwebdriver.tests.ErrorValidationsTest@6f36c2f0]" name="LoginErrorValidation" class="testingwebdriver.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="StandAloneTest.SubmitOrder(java.util.HashMap)[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" name="SubmitOrder" class="testingwebdriver.tests.StandAloneTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-12-25T19:52:56 ICT" name="Submit Order Test" finished-at="2024-12-25T19:54:09 ICT" duration-ms="72850">
+      <class name="testingwebdriver.tests.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:52:57 ICT" name="launchApplication" finished-at="2024-12-25T19:53:08 ICT" duration-ms="10895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:53:08 ICT" name="SubmitOrder" data-provider="getData" finished-at="2024-12-25T19:53:27 ICT" duration-ms="18642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=01656107662aA, item=ADIDAS ORIGINAL, email=gialinh0167@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:53:27 ICT" name="tearDown" finished-at="2024-12-25T19:53:27 ICT" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:53:27 ICT" name="launchApplication" finished-at="2024-12-25T19:53:32 ICT" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:53:32 ICT" name="SubmitOrder" data-provider="getData" finished-at="2024-12-25T19:53:54 ICT" duration-ms="22299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=01656107662aA, item=ADIDAS ORIGINAL, email=gialinh0167@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:53:54 ICT" name="tearDown" finished-at="2024-12-25T19:53:55 ICT" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:53:55 ICT" name="launchApplication" finished-at="2024-12-25T19:54:05 ICT" duration-ms="10020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:54:05 ICT" name="OrderHistoryTest" finished-at="2024-12-25T19:54:09 ICT" depends-on-methods="testingwebdriver.tests.StandAloneTest.SubmitOrder" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingwebdriver.tests.StandAloneTest@239a307b]" started-at="2024-12-25T19:54:09 ICT" name="tearDown" finished-at="2024-12-25T19:54:09 ICT" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testingwebdriver.tests.StandAloneTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2024-12-25T19:54:10 ICT" name="Error Validation Test" finished-at="2024-12-25T19:54:53 ICT" duration-ms="42857">
+      <class name="testingwebdriver.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testingwebdriver.tests.ErrorValidationsTest@6f36c2f0]" started-at="2024-12-25T19:54:10 ICT" name="launchApplication" finished-at="2024-12-25T19:54:19 ICT" duration-ms="8232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:testingwebdriver.tests.ErrorValidationsTest@6f36c2f0]" started-at="2024-12-25T19:54:19 ICT" name="LoginErrorValidation" finished-at="2024-12-25T19:54:22 ICT" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingwebdriver.tests.ErrorValidationsTest@6f36c2f0]" started-at="2024-12-25T19:54:22 ICT" name="tearDown" finished-at="2024-12-25T19:54:22 ICT" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testingwebdriver.tests.ErrorValidationsTest@6f36c2f0]" started-at="2024-12-25T19:54:22 ICT" name="launchApplication" finished-at="2024-12-25T19:54:25 ICT" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:testingwebdriver.tests.ErrorValidationsTest@6f36c2f0]" started-at="2024-12-25T19:54:25 ICT" name="ProductErrorValidation" finished-at="2024-12-25T19:54:50 ICT" duration-ms="25156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingwebdriver.tests.ErrorValidationsTest@6f36c2f0]" started-at="2024-12-25T19:54:50 ICT" name="tearDown" finished-at="2024-12-25T19:54:53 ICT" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testingwebdriver.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
