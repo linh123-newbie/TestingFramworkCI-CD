@@ -23,7 +23,7 @@ import TestingWebDriver.pagesobjects.ProductCatalogue;
 
 public class SubmitOrderTest extends BaseTest{
 	String productName = "ADIDAS ORIGINAL";
-
+	//My edit
 	@Test(dataProvider="getData",groups= {"Purchase"})
 	public void submitOrder(HashMap<String,String> input) throws IOException, InterruptedException
 	{
